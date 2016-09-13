@@ -38,6 +38,10 @@ public class Strings
       {
           System.out.println("no");
       }
+      
+      String s ="Kim Jones";
+      int k = s.indexOf(' ');
+      System.out.println(k);
     }
     
 }
