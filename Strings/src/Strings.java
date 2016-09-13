@@ -18,6 +18,8 @@ public class Strings
       String animal2 = "hippo";
       String string3 = animal.concat(animal2);
       System.out.println(string3);
+      
+      System.out.println(string3.toUpperCase());
     }
     
 }
