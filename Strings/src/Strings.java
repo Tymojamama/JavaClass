@@ -42,6 +42,10 @@ public class Strings
       String s ="Kim Jones";
       int k = s.indexOf(' ');
       System.out.println(k);
+      
+      String firstName = s.substring(0,k);
+      String lastName = s.substring(k+1);
+      System.out.printf("%s%s", lastName, firstName);
     }
     
 }
