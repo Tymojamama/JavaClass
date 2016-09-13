@@ -52,6 +52,35 @@ public class Strings
       
       int intValue = Integer.parseInt(string4);
       System.out.println(intValue + 6);
+      
+      double dblValue= Double.parseDouble(string4);
+      System.out.println(dblValue +6);
+              
+      int intNum = 6;
+      String strValue = intNum + "dogs";
+      System.out.println(strValue);
+      
+      System.out.println("Enter a sentance press enter: ");
+      
+      String s1 = input.nextLine();
+      
+      System.out.println("Then two words separated by spaces: ");
+      
+      String s2 = input.next();
+      String s3 = input.next();
+      
+      System.out.println("s1 is "+ s1);
+      
+      System.out.println("s2 is "+ s2);
+      
+      System.out.println("s3 is "+ s3);
+      
+      Scanner stdin = new Scanner(s1);
+      while(stdin.hasNext())
+      {
+          System.out.println(stdin.next());
+      }
     }
+    
     
 }
