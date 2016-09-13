@@ -20,6 +20,9 @@ public class Strings
       System.out.println(string3);
       
       System.out.println(string3.toUpperCase());
+      
+      char ch= string3.charAt(0);
+      System.out.println(ch);
     }
     
 }
