@@ -46,6 +46,12 @@ public class Strings
       String firstName = s.substring(0,k);
       String lastName = s.substring(k+1);
       System.out.printf("%s%s", lastName, firstName);
+      
+      String string4="6";
+      System.out.println(string4+ 6);
+      
+      int intValue = Integer.parseInt(string4);
+      System.out.println(intValue + 6);
     }
     
 }
