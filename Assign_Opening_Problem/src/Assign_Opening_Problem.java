@@ -38,13 +38,28 @@ public class Assign_Opening_Problem
     
         if (num1>num2)
         {
-        result = num1;
+            result = num1;
         }
         else
         {
             result=num2;
         }
-        return result;
+            return result;
+    }
+    
+        public static double max(double num1, double num2)
+    {
+    int result;
+    
+        if (num1>num2)
+        {
+            return num1;
+        }
+        else
+        {
+            return num2;
+        }
+        
     }
     
 }
