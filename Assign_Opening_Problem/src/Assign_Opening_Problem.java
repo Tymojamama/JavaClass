@@ -26,7 +26,9 @@ public class Assign_Opening_Problem
         int j=2;
         int k = max (i,j);
    
-           System.out.println("The maximum between the numbers "+i+" and "+j+" is "+ k);
+           System.out.println("The maximum between the numbers "+i+" and "+j+" is "+ k+"\n");
+           
+           System.out.println(max(1,2));
            
            
        
