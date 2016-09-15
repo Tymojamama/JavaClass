@@ -22,15 +22,32 @@ public class Assign_Opening_Problem
     public static void main(String[] args) 
     {
         
+        int i=5;
+        int j=2;
+        int k = max (i,j);
+      
         
-        int sum = 0;
-       //for(int i = 1; i<= 10; i++)
-       //{
-         //  sum += 1;
-           System.out.println("Sum from 1 to 10 is "+ sum(1, 10));
+       
+   
+           System.out.println("The max of the numbers is "+ k);
            
            
-       //}
+       
+    }
+    
+    public static int max(int num1, int num2)
+    {
+    int result;
+    
+        if (num1>num2)
+        {
+        result = num1;
+        }
+        else
+        {
+            result=num2;
+        }
+        return result;
     }
     
 }
