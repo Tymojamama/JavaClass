@@ -24,7 +24,7 @@ public class Assign6_3
         for( int i = length - 1; i>=0; i-- )
         {
             palendromeTest = palendromeTest + numb.charAt(i);
-         System.out.println(numb +" "+ number);
+       //  System.out.println(numb +" "+ number);
         }
         
         
@@ -32,31 +32,30 @@ public class Assign6_3
     }
     public static boolean isPalendrome(int number)
     {
-        boolean palendromeTestStatus = false;
-        int length=0;
+        boolean palendromeTestStatus;
+        int length;
         
          int palendromeTest = 0;
     
          
         String numb = Integer.toString(number);
         
-         System.out.println(numb +" "+ number);
+       //  System.out.println(numb +" "+ number);
       //int revNumb =0;
     
          length= numb.length();
          
-         System.out.println(length);
+       //  System.out.println(length);
         for( int i = length - 1; i>=0; i-- )
         {
             palendromeTest = palendromeTest + numb.charAt(i);
             
-           System.out.println(numb +" "+ number);
+         //  System.out.println(numb +" "+ number);
         }
        
         if( Integer.parseInt(numb) != palendromeTest)
         {
         palendromeTestStatus = true;
-        
         }
         else
         {
@@ -81,7 +80,7 @@ public class Assign6_3
         
         reverse(numb);
         
-        System.out.println(numb);
+        //System.out.println(numb);
         
         revNumb = numb;
         
@@ -91,13 +90,11 @@ public class Assign6_3
       {
           
       System.out.println("The number "+ numb + " is a palendrome!");
-      
-      
-      
-      
+
       }
       else
       {
+          
       System.out.println("The number "+numb+ " is not palendrome!");
       
       }  
