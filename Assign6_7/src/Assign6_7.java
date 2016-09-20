@@ -15,6 +15,7 @@ public class Assign6_7
         
        System.out.println(futureValue);
        
+       //System.out.println(investAmount + " " + monthlyInterestRate + " " + years);
        
        return futureValue;
        
@@ -24,29 +25,29 @@ public class Assign6_7
 
     public static void main(String[] args) 
     {
-        Scanner ScannerObject = new Scanner(System.in);
+        Scanner scannerObject = new Scanner(System.in);
         
         double numb;
      
-        double InterestRate;
+        double interestRate;
         
-        int Years;
+        int years;
         
         System.out.println("Please enter the investment amount:");
         
-        numb = ScannerObject.nextDouble();
+        numb = scannerObject.nextDouble();
         
         System.out.println("Please enter the monthly interst rate:");
         
-        InterestRate = ScannerObject.nextDouble();
+        interestRate = scannerObject.nextDouble();
         
         System.out.println("Please enter the amount of years:");
         
-        Years = ScannerObject.nextInt();
+        years = scannerObject.nextInt();
         
         System.out.println("The future value of the investment is: ");
         
-        futureInvestmentValue(numb, InterestRate, Years);
+        futureInvestmentValue(numb, interestRate, years);
         
        
         /*
