@@ -18,6 +18,13 @@ public class DayPractive
        student1.printName();
       student2.printName(); 
       
+      System.out.println(student1.getTestPercentage(95, 100));
+      System.out.println(student1.getTestPercentage(35, 100));
+
+
+      double avgGrade;
+      avgGrade= student.totalScores / student.possPoints;    
+      
     }
     
 }
